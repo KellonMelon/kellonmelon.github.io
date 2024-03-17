@@ -6,25 +6,36 @@
 <title>Kellon's Website</title>
 <link rel="icon" type="image/x-icon" href="https://github.com/KellonMelon/kellonmelon.github.io/blob/main/pictures/favicon.png?raw=true">
 <style>
+	* {
+		padding: 0;
+	}
 	@font-face {
     font-family: "The_Constellation";
     src: url('The_Constellation.ttf') format('truetype');
 	}
+	@font-face {
+	font-family: "BrandinkSans";
+	src: url('BrandinkSans.otf') format('opentype'); 
+	}
     body {
-        font-family: "The_Constellation", sans-serif;
+        font-family: "BrandinkSans", sans-serif;
         margin: 0;
         padding: 0;
     }
     header {
+		font-family: "BrandinkSans", sans-serif;
         background-color: #333;
         color: #fff;
-        padding: 10px 20px;
+        padding-bottom: 5px;
+		padding-top: 5px;
         text-align: center;
+		font-weight: bold;
+		margin-top: -30px;
     }
     nav a {
         color: #fff;
         text-decoration: none;
-        margin-right: 20px;
+        margin-right: 25px;
     }
     nav a:hover {
         text-decoration: underline;
@@ -48,11 +59,16 @@
 		border: 1px solid black;
 		box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
 	}
+	h1 {
+		font-family: "The_Constellation", sans-serif;
+		font-size: 35pt;
+		font-weight: normal;
+		}
 </style>
 </head>
 <body>
 <header>
-    <h1>Kellon's Website</h1>
+    <h1>Kellon Johnsen</h1>
     <nav>
         <a href="index.html">Home</a>
         <a href="about.html">About</a>
